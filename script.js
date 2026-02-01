@@ -1,7 +1,7 @@
 const courses = [
     { name: "Electronique de Puissance 1", credit: 5, hasTD: true, hasTP: true },
     { name: "Gisement Energétiques Renouvelables", credit: 3, hasTD: false, hasTP: true },
-    { name: "Logique combinatoire et séquentielle", credit: 4, hasTD: false, hasTP: true },
+    { name: "Logique combinatoire et séquentielle", credit: 4, hasTD: true, hasTP: true },
     { name: "Machines Electriques 1", credit: 4, hasTD: true, hasTP: true },
     { name: "Mécanique des fluides approfondis", credit: 5, hasTD: true, hasTP: false },
     { name: "Reverse engineering", credit: 1, hasTD: false, hasTP: false },
@@ -166,3 +166,4 @@ resultModal.addEventListener('click', (e) => {
 
 // Initialize
 renderCourses();
+
