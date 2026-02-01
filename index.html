@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Average Calculator of EnR</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="glass-container">
+        <header>
+            <img src="image.png" alt="IRIA Logo" class="logo">
+            <h1>Semester Calculator of EnR</h1>
+            <p>Calculate your semester average with precision and style.</p>
+        </header>
+
+        <div id="courses-container" class="courses-grid">
+            <!-- Courses will be injected here by JS -->
+        </div>
+
+        <div class="actions">
+            <button id="calculate-btn">Calculate Average </button>
+        </div>
+
+        <div id="result-modal" class="modal hidden">
+            <div class="modal-content glass-card">
+                <span class="close-btn">&times;</span>
+                <h2>Your Average</h2>
+                <div class="average-display">
+                    <span id="average-value">00.00</span>
+                </div>
+                <p id="average-message">Keep pushing!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
